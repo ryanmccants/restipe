@@ -1,0 +1,31 @@
+{
+  "name": "restipe",
+  "version": "1.0.0",
+  "description": "A REST API to log and possibly test REST API resources.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmccants/restipe.git"
+  },
+  "keywords": [
+    "REST",
+    "api",
+    "node",
+    "mysql",
+    "express"
+  ],
+  "author": "Ryan L. McCants",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanmccants/restipe/issues"
+  },
+  "homepage": "https://github.com/ryanmccants/restipe#readme",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "express": "~4.15.2",
+    "pug": "~2.0.0-beta11"
+    }
+}
