@@ -3,3 +3,10 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  p Currently, the /api route has the following REST endpoints:
+  ul
+    li GET '/' Lists all resources.
+    li POST '/' Creates a new resource entry. payload = {"ip":"localhost", "port":"1337"}
+    li GET '/:id' Retrieves resource with id=:id.
+    li PUT '/:id' Updates resource with id=:id.
+    li DELETE '/:id' Deletes resource with id=:id.
